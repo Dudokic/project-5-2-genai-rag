@@ -9,7 +9,7 @@ import time
 
 
 # Set your OpenAI API Key here for summaries (optional)
-openai.api_key = "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"
+openai.api_key = ""
 
 def search_papers_arxiv(query, max_results=5):
     """Search for papers on Arxiv using the arxiv API."""
