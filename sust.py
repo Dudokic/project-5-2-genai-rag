@@ -110,7 +110,7 @@ if query:
         st.stop()
 
     # Initialize the ChatOpenAI LLM
-    api_key = "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" # Use environment variable for API key
+    api_key = "" # Use environment variable for API key
 
 
     llm = ChatOpenAI(
